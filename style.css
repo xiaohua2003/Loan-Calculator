@@ -1,6 +1,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color:white;
+    box-sizing:border-bpx;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:#005f99;
+    font-weight: bold;
+    color:white;
+    font-size:2.2rem;
+    padding:1rem 5rem;;
+
 }
 main{
     display:flex;
@@ -52,7 +63,7 @@ h2{
     font-size:1.1rem;
 }
 footer{
-    margin-top:10%;
+    margin-top:6%;
     text-align:center;
     font-size:1.2rem;
 }
