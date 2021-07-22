@@ -5,14 +5,7 @@ body{
     padding: 0;
     margin: 0;
 }
-nav{
-    background-color:#005f99;
-    font-weight: bold;
-    color:white;
-    font-size:2.2rem;
-    padding:1rem 5rem;
 
-}
 main{
     display:flex;
     flex-direction: column;
