@@ -7,16 +7,33 @@
     <title>Loan Calculator</title>
 </head>
 <body>
-    <form id="loan-form" action="">
-        <div class = "container">
-            <h1>Loan Calculator</h1>
-            <p>Loan Amount: <input id = "amount" type = "number" value = "" > $</p>
-            <p>Interest Rate: <input id = "interest" type = "number" value = "" > %</p>
-            <p>Months to Pay: <input id = "months" type = "number" value = ""></p>
-            <button>Calculator</button>
-            <h2 id = "payment"></h2>
+    <main>
+        <h1>Loan Calculator</h1>
+        <form id="loan-form" action="">
+            <div class = "container">
+                <div class="container" class="loan">
+                    <label for="amount">Loan Amount ($) :</label>
+                    <input id = "amount" type = "number" value = "" >
+                </div>
+                <div class="container" class="rate">
+                    <label for="rate">Interest Rate (%) :</label>
+                    <input id = "interest" type = "number" value = "" >
+                </div>
+                <div class="container">
+                    <label for="rate">Number of Years:</label>
+                    <input id = "years" type = "number" value = "">
+                </div>
+                <button>Calculator</button>
+            </div>
+        </form>
+        <h2>Results:</h2>
+        <div class="bottom">
+            <p class="result">Montly Payment <span> $:</span> <span id = "payment" ></span></p>
+            <p class="result">Total Interest <span> %:</span> <span id="totalInterest"></span></p> 
+            <p class="result">Total Amount <span> $:</span> <span id="totalPayment"></span> </p>   
         </div>
-    </form>
+    </main>
+    
     <footer> Created By Xiaohua Cai 2021</footer>
     <script src = "app.js"></script>
    
